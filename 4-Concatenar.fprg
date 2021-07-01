@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Clebson"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-01 07:47:46 "/>
+        <attribute name="created" value="Q2xlYnNvbjtDTEVCU09OOzIwMjEtMDUtMDE7IjA3OjQyOjU4ICI7MjQyMA=="/>
+        <attribute name="edited" value="Q2xlYnNvbjtDTEVCU09OOzIwMjEtMDUtMDE7IjA3OjQ3OjQ2ICI7MTsyNTMw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NOME" type="String" array="False" size=""/>
+            <output expression="&quot;DIGITE SEU NOME&quot;" newline="True"/>
+            <input variable="NOME"/>
+            <output expression="&quot;SEU NOME &#201; &quot; &amp; NOME" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

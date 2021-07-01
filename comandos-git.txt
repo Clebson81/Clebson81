@@ -1,0 +1,10 @@
+ls	listar diretório
+ls-a	exibir diretórios ocultos
+cd	navegar entre pastas
+mkdir	criar pastas
+mv	move arquivos entre pastas
+
+git init
+git add
+git commit
+git config

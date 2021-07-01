@@ -1,0 +1,9 @@
+dir 	lista o diretório contido na pasta (o que tem dentro dela)
+cd 	navega sobre as pastas (sobe o nível, entra dentro da pasta escolhida)
+cd.. 	retorna a pasta anterior
+cls 	limpa a tela
+mkdir 	cria pasta
+echo 	printa a mensagem digitada
+echo>	salva o arquivo na pasta
+del	deleta arquivos
+rmdir s/q	remove todo o diretório inclusive a pasta

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Clebson"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-01 07:30:10 "/>
+        <attribute name="created" value="Q2xlYnNvbjtDTEVCU09OOzIwMjEtMDUtMDE7IjA3OjEzOjExICI7MjQwNw=="/>
+        <attribute name="edited" value="Q2xlYnNvbjtDTEVCU09OOzIwMjEtMDUtMDE7IjA3OjMwOjEwICI7MTsyNTEz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Cliente" type="String" array="False" size=""/>
+            <declare name="Cart&#227;o" type="Boolean" array="False" size=""/>
+            <declare name="N&#250;mero" type="String" array="False" size=""/>
+            <input variable="cliente"/>
+            <input variable="cart&#227;o"/>
+            <if expression="cart&#227;o">
+                <then>
+                    <input variable="n&#250;mero"/>
+                </then>
+                <else>
+                    <output expression="&quot;Compra n&#227;o autoriza, desculpe-nos, apenas pagamentos com cart&#227;o&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
