@@ -1,0 +1,15 @@
+//CALCULADORA - EXERCÍCIO DE INTRODUÇÃO AO KOTLIN - DESCRIÇÃO E DISTRIBUIÇÃO DO CÓDIGO
+// fun main - CHAMA A FUNÇÃO PRINCIPAL
+// var num1 - DECLARA A PRIMEIRA VARIÁVEL DO TIPO INT(MUTÁVEL) PARA OPERAÇÃO
+// var num2 - DECLARA A SEGUNDA VARIÁVEL DO TIPO INT(MUTÁVEL) PARA OPERAÇÃO
+
+fun main() {
+var num1:Int
+var num2:Int    
+num1 = 1
+num2 = 2
+println("${num1}+${num2}=${num1+num2}")
+println("${num1}-${num2}=${num1-num2}")
+println("${num1}*${num2}=${num1*num2}")
+println("${num1}/${num2}=${num1/num2}")
+}
